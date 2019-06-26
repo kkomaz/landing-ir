@@ -147,26 +147,25 @@ const IndexPage = () => (
     <section id="footer">
       <ul className="icons">
         <li>
-          <a href="#" className="icon brands alt fa-twitter">
+          <a href="https://twitter.com/EZResize" rel="noopener noreferrer" target="_blank" className="icon brands alt fa-twitter">
             <span className="label">Twitter</span>
           </a>
         </li>
+        {/*
+          <li>
+            <a href="#" className="icon brands alt fa-product-hunt">
+              <span className="label">Product Hunt</span>
+            </a>
+          </li>
+        */}
         <li>
-          <a href="#" className="icon brands alt fa-facebook-f">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon brands alt fa-instagram">
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon brands alt fa-github">
+          <a href="https://github.com/kkomaz/landing-ir" rel="noopener noreferrer" target="_blank" className="icon brands alt fa-github">
             <span className="label">GitHub</span>
           </a>
         </li>
-        <li>
+        <li onClick={() => {
+          window.location.href = "mailto:EZResize@protonmail.com"
+        }}>
           <a href="#" className="icon solid alt fa-envelope">
             <span className="label">Email</span>
           </a>
