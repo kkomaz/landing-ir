@@ -1,26 +1,31 @@
 import React from "react"
 import SEO from "../components/seo"
+import logo from '../images/logo.png'
+import fileImg from '../images/file-img.jpg'
 
 const IndexPage = () => (
   <div className="is-preload">
     <SEO title="Home" />
     <section id="header">
       <div className="inner">
-        <span className="icon solid major fa-cloud"></span>
+        <img src={logo} alt="logo" />
         <h1>
-          Hi, I'm <strong>Photon</strong>, another fine
-          <br />
-          little freebie from <a href="http://html5up.net">HTML5 UP</a>.
+          Welcome to <strong>EZResize</strong>
         </h1>
         <p>
-          Accumsan feugiat mi commodo erat lorem ipsum, sed magna
+          A simple, easy, resize tool for your images
           <br />
-          lobortis feugiat sapien sed etiam volutpat accumsan.
+          Privacy focused, end-to-end encrypted, and easy to use
         </p>
         <ul className="actions special">
           <li>
             <a href="#one" className="button scrolly">
-              Discover
+              Start Now
+            </a>
+          </li>
+          <li>
+            <a href="#one" className="button scrolly">
+              Learn More
             </a>
           </li>
         </ul>
@@ -33,21 +38,19 @@ const IndexPage = () => (
           <div className="col-6 col-12-medium">
             <header className="major">
               <h2>
-                Lorem ipsum dolor adipiscing
-                <br />
-                amet dolor consequat
+                Do you know where your files are saved?
               </h2>
             </header>
             <p>
-              Adipiscing a commodo ante nunc accumsan et interdum mi ante
-              adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus
-              nascetur ac non. Lorem curae et ante amet sapien sed tempus
-              adipiscing id accumsan.
+              An abundant number of resize tools are readily avaiable online.  But do you really know where your file goes once you upload it?
+            </p>
+            <p>
+              With EZResize you get to resize your image and have the option to save it locally on your hard drive OR save your <strong>encrypted</strong> data to your EZResize storage.
             </p>
           </div>
           <div className="col-6 col-12-medium imp-medium">
             <span className="image fit">
-              <img src="images/pic01.jpg" alt="" />
+              <img src={fileImg} alt="" />
             </span>
           </div>
         </div>
@@ -82,31 +85,22 @@ const IndexPage = () => (
           <div className="col-6 col-12-medium">
             <header className="major">
               <h2>
-                Lorem ipsum dolor adipiscing
-                <br />
-                amet dolor consequat
+                How does this all work?
               </h2>
             </header>
             <p>
-              Adipiscing a commodo ante nunc accumsan interdum mi ante
-              adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-              nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-              Adipiscing id accumsan adipiscing ipsum.
+              Under the hood, EZResize is powered by <strong>Blockstack</strong>, a new internet for decentralized apps.
             </p>
             <p>
-              Blandit faucibus proin. Ac aliquam integer adipiscing enim non
-              praesent vis commodo nunc phasellus cubilia ac risus accumsan.
-              Accumsan blandit. Lobortis phasellus non lobortis dit varius mi
-              varius accumsan lobortis. Blandit ante aliquam lacinia lorem
-              lobortis semper morbi col faucibus vitae integer placerat accumsan
-              orci eu mi odio tempus adipiscing adipiscing adipiscing curae
-              consequat feugiat etiam dolore.
+              The Blockstack team has developed a decentralized high-performance storage system to allow users to store their data wherever they please.
+              Include but limited to S3, Azure, etc. They have also created the foundation to allow users to encrypt and decrypt their data.
             </p>
             <p>
-              Adipiscing a commodo ante nunc accumsan interdum mi ante
-              adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-              nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-              Adipiscing id accumsan adipiscing ipsum.
+              EZResize will <strong>never</strong> have access to your images and all files uploaded will be 100% encrypted.
+            </p>
+
+            <p>
+              To learn more about Blockstack click <a href="https://blockstack.org/about/" rel="noopener noreferrer" target="_blank">here</a>
             </p>
           </div>
         </div>
@@ -116,83 +110,37 @@ const IndexPage = () => (
     <section id="three" className="main style1 special">
       <div className="container">
         <header className="major">
-          <h2>Adipiscing amet consequat</h2>
+          <h2>Features</h2>
         </header>
-        <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
         <div className="row gtr-150">
           <div className="col-4 col-12-medium">
             <span className="image fit">
               <img src="images/pic02.jpg" alt="" />
             </span>
-            <h3>Magna feugiat lorem</h3>
+            <h3>Height and Width Control</h3>
             <p>
-              Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-              nunc lobortis non amet vis sed volutpat et nascetur.
+              EZResize will choose the best dimensions to ensure you get the best aspect ratio while trying to perserve your desired dimensions
             </p>
-            <ul className="actions special">
-              <li>
-                <a href="#" className="button">
-                  More
-                </a>
-              </li>
-            </ul>
           </div>
           <div className="col-4 col-12-medium">
             <span className="image fit">
               <img src="images/pic03.jpg" alt="" />
             </span>
-            <h3>Magna feugiat lorem</h3>
+            <h3>Privacy</h3>
             <p>
-              Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-              nunc lobortis non amet vis sed volutpat et nascetur.
+              All files saved in EZResize Storage is 100% encrypted
             </p>
-            <ul className="actions special">
-              <li>
-                <a href="#" className="button">
-                  More
-                </a>
-              </li>
-            </ul>
           </div>
           <div className="col-4 col-12-medium">
             <span className="image fit">
               <img src="images/pic04.jpg" alt="" />
             </span>
-            <h3>Magna feugiat lorem</h3>
+            <h3>Data Ownership</h3>
             <p>
-              Adipiscing a commodo ante nunc magna lorem et interdum mi ante
-              nunc lobortis non amet vis sed volutpat et nascetur.
+              Take control of your data.  Change your storage service at any time.
             </p>
-            <ul className="actions special">
-              <li>
-                <a href="#" className="button">
-                  More
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="four" className="main style2 special">
-      <div className="container">
-        <header className="major">
-          <h2>Ipsum feugiat consequat?</h2>
-        </header>
-        <p>Sed lacus nascetur ac ante amet sapien.</p>
-        <ul className="actions special">
-          <li>
-            <a href="#" className="button wide primary">
-              Sign Up
-            </a>
-          </li>
-          <li>
-            <a href="#" className="button wide">
-              Learn More
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
 
@@ -225,7 +173,7 @@ const IndexPage = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Untitled</li>
+        <li>&copy; TechRally</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
