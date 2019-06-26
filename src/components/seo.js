@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, withPrefix } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -43,6 +43,36 @@ function SEO({ description, lang, meta, title }) {
             }
           ]
         }
+      ]}
+      script={[
+        {
+          src: withPrefix('jquery.min.js'),
+          type: 'text/javascript'
+        },
+        {
+          src: withPrefix('breakpoints.min.js'),
+          type: 'text/javascript'
+        },
+        {
+          src: withPrefix('browser.min.js'),
+          type: 'text/javascript'
+        },
+        {
+          src: withPrefix('jquery.min.js'),
+          type: 'text/javascript'
+        },
+        {
+          src: withPrefix('util.js'),
+          type: 'text/javascript'
+        },
+        {
+          src: withPrefix('jquery.scrolly.min.js'),
+          type: 'text/javascript'
+        },
+        {
+          src: withPrefix('main.js'),
+          type: 'text/javascript'
+        },
       ]}
       meta={[
         {

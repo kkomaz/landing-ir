@@ -6,7 +6,7 @@
 
 /* Header */
 
-	body.is-preload #header .inner {
+	div.is-preload #header .inner {
 		-moz-transform: none;
 		-webkit-transform: none;
 		-ms-transform: none;
@@ -14,7 +14,7 @@
 		opacity: 1;
 	}
 
-		body.is-preload #header .inner .actions {
+		div.is-preload #header .inner .actions {
 			-moz-transform: none;
 			-webkit-transform: none;
 			-ms-transform: none;
