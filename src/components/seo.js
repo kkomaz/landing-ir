@@ -34,7 +34,24 @@ function SEO({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      noscript={[
+        {
+          link: [
+            {
+              rel: 'stylesheet',
+              href: './assets/css/noscript.css'
+            }
+          ]
+        }
+      ]}
       meta={[
+        {
+          charset: 'utf-8'
+        },
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1, user-scalable=no',
+        },
         {
           name: `description`,
           content: metaDescription,
