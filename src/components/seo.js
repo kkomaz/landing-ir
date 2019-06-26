@@ -34,46 +34,6 @@ function SEO({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
-      noscript={[
-        {
-          link: [
-            {
-              rel: 'stylesheet',
-              href: './assets/css/noscript.css'
-            }
-          ]
-        }
-      ]}
-      script={[
-        {
-          src: withPrefix('jquery.min.js'),
-          type: 'text/javascript'
-        },
-        {
-          src: withPrefix('breakpoints.min.js'),
-          type: 'text/javascript'
-        },
-        {
-          src: withPrefix('browser.min.js'),
-          type: 'text/javascript'
-        },
-        {
-          src: withPrefix('jquery.min.js'),
-          type: 'text/javascript'
-        },
-        {
-          src: withPrefix('util.js'),
-          type: 'text/javascript'
-        },
-        {
-          src: withPrefix('jquery.scrolly.min.js'),
-          type: 'text/javascript'
-        },
-        {
-          src: withPrefix('main.js'),
-          type: 'text/javascript'
-        },
-      ]}
       meta={[
         {
           charset: 'utf-8'

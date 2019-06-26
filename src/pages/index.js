@@ -1,7 +1,5 @@
 import React from "react"
 import SEO from "../components/seo"
-import Helmet from "react-helmet"
-import { withPrefix } from "gatsby"
 
 const IndexPage = () => (
   <div className="is-preload">
