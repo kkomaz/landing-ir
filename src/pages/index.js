@@ -2,6 +2,9 @@ import React from "react"
 import SEO from "../components/seo"
 import logo from '../images/logo.png'
 import fileImg from '../images/file-img.jpg'
+import dataImg from '../images/data.jpg'
+import heightWidthImg from '../images/height-width.jpg'
+import privacyImg from '../images/privacy.jpg'
 
 const IndexPage = () => (
   <div className="is-preload">
@@ -115,7 +118,7 @@ const IndexPage = () => (
         <div className="row gtr-150">
           <div className="col-4 col-12-medium">
             <span className="image fit">
-              <img src="images/pic02.jpg" alt="" />
+              <img src={heightWidthImg} alt="height-width" />
             </span>
             <h3>Height and Width Control</h3>
             <p>
@@ -124,7 +127,7 @@ const IndexPage = () => (
           </div>
           <div className="col-4 col-12-medium">
             <span className="image fit">
-              <img src="images/pic03.jpg" alt="" />
+              <img src={privacyImg} alt="privacy" />
             </span>
             <h3>Privacy</h3>
             <p>
@@ -133,7 +136,7 @@ const IndexPage = () => (
           </div>
           <div className="col-4 col-12-medium">
             <span className="image fit">
-              <img src="images/pic04.jpg" alt="" />
+              <img src={dataImg} alt="data" />
             </span>
             <h3>Data Ownership</h3>
             <p>
