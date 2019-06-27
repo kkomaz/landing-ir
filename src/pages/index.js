@@ -48,7 +48,7 @@ const IndexPage = () => (
               An abundant number of resize tools are readily avaiable online.  But do you really know where your file goes once you upload it?
             </p>
             <p>
-              With EZResize you get to resize your image and have the option to save it locally on your hard drive OR save your <strong>encrypted</strong> data to your EZResize storage.
+              With EZResize, you get to resize your image and have the option to save it locally on your hard drive OR save your <strong>encrypted</strong> data to your EZResize storage.
             </p>
           </div>
           <div className="col-6 col-12-medium imp-medium">
@@ -96,7 +96,7 @@ const IndexPage = () => (
             </p>
             <p>
               The Blockstack team has developed a decentralized high-performance storage system to allow users to store their data wherever they please.
-              Include but limited to S3, Azure, etc. They have also created the foundation to allow users to encrypt and decrypt their data.
+              Include but not limited to S3, Azure, etc. They have also created the foundation to allow users to encrypt and decrypt their data.
             </p>
             <p>
               EZResize will <strong>never</strong> have access to your images and all files uploaded will be 100% encrypted.
@@ -122,7 +122,7 @@ const IndexPage = () => (
             </span>
             <h3>Height and Width Control</h3>
             <p>
-              EZResize will choose the best dimensions to ensure you get the best aspect ratio while trying to perserve your desired dimensions
+              EZResize will choose the best dimensions to ensure you get the best aspect ratio while trying to preserve your desired dimensions
             </p>
           </div>
           <div className="col-4 col-12-medium">
@@ -140,7 +140,7 @@ const IndexPage = () => (
             </span>
             <h3>Data Ownership</h3>
             <p>
-              Take control of your data.  Change your storage service at any time.
+              Take control of your data.  Images will never be lost for someone else to find.
             </p>
           </div>
         </div>
@@ -175,7 +175,7 @@ const IndexPage = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; TechRally</li>
+        <li>&copy; Tech Rally</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
