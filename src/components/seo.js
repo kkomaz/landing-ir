@@ -71,7 +71,7 @@ function SEO({ description, lang, meta, title }) {
           content: title,
         },
         {
-          name: `twitter:images`,
+          name: `twitter:image:src`,
           content: site.siteMetadata.image,
         },
         {

@@ -8,7 +8,7 @@ import privacyImg from '../images/privacy.jpg'
 
 const IndexPage = () => (
   <div className="is-preload">
-    <SEO title="Home" />
+    <SEO title="EZResize" />
     <section id="header">
       <div className="inner">
         <img src={logo} alt="logo" />
