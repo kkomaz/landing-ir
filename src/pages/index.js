@@ -22,7 +22,12 @@ const IndexPage = () => (
         </p>
         <ul className="actions special">
           <li>
-            <a href="#one" className="button scrolly">
+            <a
+              className="button scrolly"
+              href="https://app.ezresize.tech"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Start Now
             </a>
           </li>
