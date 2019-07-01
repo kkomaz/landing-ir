@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `EZResizer`,
+    description: `A simple, easy, resize tool for your images.  Privacy focused, end-to-end encrypted, and easy to use`,
+    author: `EZResizer`,
+    image: '/images/camera.jpg'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
