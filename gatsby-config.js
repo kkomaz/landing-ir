@@ -3,7 +3,7 @@ module.exports = {
     title: `EZResizer`,
     description: `A simple, easy, resize tool for your images.  Privacy focused, end-to-end encrypted, and easy to use`,
     author: `EZResizer`,
-    image: 'images/camera.jpg'
+    image: 'images/twitter.png'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
