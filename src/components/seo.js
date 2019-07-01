@@ -48,6 +48,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `image`,
+          content: `https://ezresize.tech/${site.siteMetadata.image}`,
+        },
+        {
+          itemprop: `image`,
+          content: `https://ezresize.tech/${site.siteMetadata.image}`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -58,6 +66,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: `https://ezresize.tech/${site.siteMetadata.image}`,
         },
         {
           name: `twitter:card`,
