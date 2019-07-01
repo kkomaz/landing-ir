@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image:src`,
-          content: site.siteMetadata.image,
+          content: `https://ezresize.tech/${site.siteMetadata.image}`,
         },
         {
           name: `twitter:description`,
