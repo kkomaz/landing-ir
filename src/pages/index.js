@@ -50,7 +50,7 @@ const IndexPage = () => (
               </h2>
             </header>
             <p>
-              An abundant number of resize tools are readily avaiable online.  But do you really know where your file goes once you upload it?
+              An abundant number of resize tools are readily available online.  But do you really know where your file goes once you upload it?
             </p>
             <p>
               With EZResize, you get to resize your image and have the option to save it locally on your hard drive OR save your <strong>encrypted</strong> data to your EZResize storage.
