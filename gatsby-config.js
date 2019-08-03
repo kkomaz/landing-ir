@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `EZResizer`,
+    title: `EZResize`,
     description: `A simple, easy, resize tool for your images.  Privacy focused, end-to-end encrypted, and easy to use`,
-    author: `EZResizer`,
+    author: `EZResize`,
     image: 'images/ogimage4.png'
   },
   plugins: [
