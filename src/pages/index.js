@@ -5,6 +5,7 @@ import fileImg from '../images/file-img.jpg'
 import dataImg from '../images/data.jpg'
 import heightWidthImg from '../images/height-width.jpg'
 import privacyImg from '../images/privacy.jpg'
+import './styles.css'
 
 const IndexPage = () => (
   <div className="is-preload">
@@ -20,6 +21,10 @@ const IndexPage = () => (
           <br />
           Privacy focused, end-to-end encrypted, and easy to use
         </p>
+        <iframe
+          className="iframe-intro"
+          src="https://www.youtube.com/embed/yfrscKll5DQ">
+        </iframe>
         <ul className="actions special">
           <li>
             <a
