@@ -160,6 +160,11 @@ const IndexPage = () => (
     <section id="footer">
       <ul className="icons">
         <li>
+          <a href="https://www.producthunt.com/posts/ezresize" rel="noopener noreferrer" target="_blank" className="icon brands alt fa-product-hunt">
+            <span className="label">Product Hunt</span>
+          </a>
+        </li>
+        <li>
           <a href="https://twitter.com/EZResize" rel="noopener noreferrer" target="_blank" className="icon brands alt fa-twitter">
             <span className="label">Twitter</span>
           </a>
